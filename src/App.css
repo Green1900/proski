@@ -1,0 +1,54 @@
+.Zam {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-image: url("image\ copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFD700;
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Dog {
+  flex-direction: column;
+  align-items: center;
+}
+
+#grand {
+  border-radius: 9px;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: font-size 2s 500ms;
+  border-radius: 8px;
+}
+
+#grand:hover {
+  font-size: 50px;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+  text-align: center;
+}
